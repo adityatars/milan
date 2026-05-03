@@ -1,0 +1,53 @@
+[debug] [2026-05-02T12:10:09.340Z] ----------------------------------------------------------------------
+[debug] [2026-05-02T12:10:09.341Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2026-05-02T12:10:09.341Z] CLI Version:   14.10.1
+[debug] [2026-05-02T12:10:09.341Z] Platform:      darwin
+[debug] [2026-05-02T12:10:09.341Z] Node Version:  v22.17.0
+[debug] [2026-05-02T12:10:09.342Z] Time:          Sat May 02 2026 17:40:09 GMT+0530 (India Standard Time)
+[debug] [2026-05-02T12:10:09.342Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-05-02T12:10:09.408Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-05-02T12:10:09.408Z] > authorizing via signed-in user (aditya.ch4812@gmail.com)
+[debug] [2026-05-02T12:10:09.408Z] [iam] checking project salessimulator-25c61 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-05-02T12:10:09.408Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:09.408Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:09.408Z] > refreshing access token with scopes: []
+[debug] [2026-05-02T12:10:09.409Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-05-02T12:10:09.409Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:09.581Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2026-05-02T12:10:09.581Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:09.581Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions [none]
+[debug] [2026-05-02T12:10:09.581Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions x-goog-quota-user=projects/salessimulator-25c61
+[debug] [2026-05-02T12:10:09.581Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-05-02T12:10:11.110Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions 401
+[debug] [2026-05-02T12:10:11.110Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2026-05-02T12:10:11.110Z] Got a 401 Unauthenticated error for a call that required authentication. Refreshing tokens.
+[debug] [2026-05-02T12:10:11.111Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.111Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.111Z] > refreshing access token with scopes: []
+[debug] [2026-05-02T12:10:11.111Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-05-02T12:10:11.112Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.275Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2026-05-02T12:10:11.275Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.276Z] [iam] error while checking permissions, command may fail: Request to https://cloudresourcemanager.googleapis.com/v1/projects/salessimulator-25c61:testIamPermissions had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2026-05-02T12:10:11.277Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.277Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.277Z] > refreshing access token with scopes: []
+[debug] [2026-05-02T12:10:11.278Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-05-02T12:10:11.278Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.399Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2026-05-02T12:10:11.399Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.400Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/salessimulator-25c61 [none]
+[debug] [2026-05-02T12:10:11.833Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/salessimulator-25c61 401
+[debug] [2026-05-02T12:10:11.833Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/salessimulator-25c61 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2026-05-02T12:10:11.833Z] Got a 401 Unauthenticated error for a call that required authentication. Refreshing tokens.
+[debug] [2026-05-02T12:10:11.834Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.834Z] Checked if tokens are valid: false, expires at: 1752185658516
+[debug] [2026-05-02T12:10:11.834Z] > refreshing access token with scopes: []
+[debug] [2026-05-02T12:10:11.834Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-05-02T12:10:11.834Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.930Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2026-05-02T12:10:11.930Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-05-02T12:10:11.930Z] Request to https://firebase.googleapis.com/v1beta1/projects/salessimulator-25c61 had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier

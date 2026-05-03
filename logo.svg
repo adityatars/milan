@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 72" fill="none">
+  <!-- Arrow mark: two bold parallelogram stripes pointing up-right -->
+  <g>
+    <!-- Left stripe (angled bar going up-right) -->
+    <path d="M6 56 L22 16 L34 16 L18 56 Z" fill="#2563eb"/>
+    <!-- Right stripe (angled bar going up-right, offset) -->
+    <path d="M22 56 L38 16 L50 16 L34 56 Z" fill="#2563eb"/>
+    <!-- Arrowhead triangle on top-right -->
+    <polygon points="32,6 56,6 56,30" fill="#2563eb"/>
+  </g>
+  <!-- SELL IT wordmark -->
+  <text x="66" y="38" font-family="'Plus Jakarta Sans', Arial Black, sans-serif" font-weight="900" font-size="26" fill="#2563eb" letter-spacing="-0.5">SELL</text>
+  <text x="66" y="64" font-family="'Plus Jakarta Sans', Arial Black, sans-serif" font-weight="900" font-size="26" fill="#2563eb" letter-spacing="-0.5">IT</text>
+</svg>
